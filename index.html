@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Khushi Jain — Cryogenic TCAD & Device Physics</title>
+<meta name="description" content="Khushi Jain, PhD Research Scholar at IIT Bhubaneswar. Cryogenic TCAD simulation of Gate-All-Around nanosheet FETs for quantum computing electronics." />
+
+<!--
+============================================================
+  HOW TO EDIT
+  - Search [EDIT] for spots to update (years).
+  - Keep photo.jpg next to this file in the repo.
+============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --bg: #f6fafd;          /* very light frost */
+    --ink: #1c2a3d;
+    --muted: #5b6b83;
+    --faint: #93a3b8;
+    --accent: #2470b3;      /* single blue */
+    --line: #dde6ee;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: "Karla", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .page { max-width: 760px; margin: 0 auto; padding: 40px 20px 24px; }
+
+  /* ---------- Header ---------- */
+  .head {
+    display: flex; align-items: center; gap: 20px;
+    padding-bottom: 22px; border-bottom: 1px solid var(--line);
+    margin-bottom: 8px; flex-wrap: wrap;
+  }
+  .photo {
+    width: 96px; height: 96px; object-fit: cover; object-position: top;
+    border-radius: 50%; border: 1px solid var(--line);
+  }
+  .head h1 { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
+  .head h1 .flake { color: var(--accent); font-size: 17px; font-weight: 400; }
+  .head .role { color: var(--accent); font-size: 13.5px; font-weight: 600; }
+  .head .inst { color: var(--muted); font-size: 13.5px; }
+
+  /* ---------- Sections ---------- */
+  h2 {
+    font-size: 13px; font-weight: 700; letter-spacing: 0.09em;
+    text-transform: uppercase; color: var(--faint);
+    margin: 26px 0 8px;
+  }
+
+  p.about { color: var(--muted); }
+  p.about strong { color: var(--ink); font-weight: 600; }
+
+  ul.plain { list-style: none; }
+  ul.plain li { padding: 4px 0; color: var(--muted); }
+  ul.plain li b { color: var(--ink); font-weight: 600; }
+
+  .skill-line { color: var(--muted); padding: 2px 0; }
+  .skill-line b { color: var(--ink); font-weight: 600; }
+
+  .entry { padding: 6px 0; }
+  .entry .top { display: flex; justify-content: space-between; gap: 14px; }
+  .entry .t { font-weight: 600; }
+  .entry .y { color: var(--faint); font-size: 13px; white-space: nowrap; }
+  .entry .s { color: var(--muted); font-size: 13.5px; }
+  .entry .venue { color: var(--accent); font-size: 12.5px; font-weight: 600; }
+
+  footer {
+    margin-top: 34px; padding-top: 14px; border-top: 1px solid var(--line);
+    text-align: center; font-size: 12px; color: var(--faint);
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ===================== HEADER ===================== -->
+  <div class="head">
+    <img class="photo" src="photo.jpg" alt="Khushi Jain" />
+    <div>
+      <h1>Khushi Jain <span class="flake" aria-hidden="true">❄</span></h1>
+      <div class="role">PhD Research Scholar · Cryogenic TCAD</div>
+      <div class="inst">Dept. of Electronics &amp; Communication Engineering, IIT Bhubaneswar</div>
+    </div>
+  </div>
+
+  <!-- ===================== ABOUT ===================== -->
+  <h2>About</h2>
+  <p class="about">
+    I study <strong>advanced semiconductor devices through physics-based TCAD simulation</strong>,
+    focusing on Gate-All-Around (GAA) nanosheet FETs at <strong>4.2 K</strong>, where classical
+    device models break down and freeze-out, band-tail conduction, and trap-induced noise take over.
+    Supervised by Dr. Navjeet Bagga.
+  </p>
+
+  <!-- ===================== RESEARCH ===================== -->
+  <h2>Research</h2>
+  <ul class="plain">
+    <li><b>Cryogenic device simulation</b> — GAA nanosheet FETs to 4.2 K, freeze-out, incomplete ionization, SS saturation.</li>
+    <li><b>Reliability &amp; noise</b> — RTN and NMP charge trapping with trap-location dependence in 3D.</li>
+    <li><b>Radiation effects</b> — SET/SEU in stacked nanosheets, including cryogenic soft errors.</li>
+    <li><b>Compact modeling</b> — cryo-aware BSIM-CMG/IMG capturing band tails and trap noise.</li>
+  </ul>
+
+  <!-- ===================== SKILLS ===================== -->
+  <h2>Skills</h2>
+  <div class="skill-line"><b>TCAD:</b> GTS Framework, MINIMOS-NT, Sentaurus, Comphy</div>
+  <div class="skill-line"><b>Circuits:</b> Cadence Virtuoso, BSIM-CMG, ngspice / Xyce, Verilog</div>
+  <div class="skill-line"><b>Analysis:</b> Python, MATLAB, LaTeX, Origin</div>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="top"><div class="t">Ph.D., Electronics &amp; Communication Engineering</div><div class="y">Ongoing</div></div>
+    <div class="s">IIT Bhubaneswar · Cryogenic TCAD of GAA Nanosheet FETs</div>
+  </div>
+  <div class="entry">
+    <div class="top"><div class="t">B.Tech, Electrical Engineering</div><div class="y">2020–2024</div></div>
+    <div class="s">COEP College of Engineering Pune</div>
+  </div>
+
+  <!-- ===================== PUBLICATIONS ===================== -->
+  <h2>Publications</h2>
+  <div class="entry">
+    <div class="venue">IEEE TDMR · Selected</div>
+    <div class="t">Alpha-particle-induced single-event transients and resistivity modulation in nanosheet FETs</div>
+    <div class="s">Khushi Jain, Sandeep Kumar, Sunil Rathore, Shashank Banchhor, Navjeet Bagga</div>
+  </div>
+  <div class="entry">
+    <div class="venue">IWPSD · Selected</div>
+    <div class="t">Machine Learning–Augmented TCAD Analysis of Metal Grain Granularities in Nanosheet FET</div>
+    <div class="s">Khushi Jain, A Sree Shiva Kumar, Deven H Patil, Riya Shaw, Sarbeswar Nayak, Bathula Satwik, Jyoti Patel, Navjeet Bagga</div>
+  </div>
+
+  <footer>© <span id="year"></span> Khushi Jain</footer>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
